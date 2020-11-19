@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Designer - Agência de desenvolvimento de sites e apps</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="grid-4">
+          <img src="img/Logo dev.svg" alt="Logo" />
+        </a>
+        <nav class="grid-12 header-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER -->
+    <section class="container intro">
+      <h1 class="grid-5 intro-title">
+        { desenvolvimento de Websites e Aplicativos }
+      </h1>
+      <img src="img/undraw_web_developer_p3e5.svg" alt="" class="grid-11" />
+    </section>
+    <!-- INTRODUÇÃO -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <h1 class="title">sobre</h1>
+        <div class="sobre-container">
+          <div class="grid-8">
+            <div class="sobre-box">
+              <h2 class="subtitle">Quem somos nós?</h2>
+              <p>
+                Uma agência especializada em soluções para a Internet que atua
+                no Desenvolvimento de sites e aplicativos .
+              </p>
+            </div>
+            <div class="sobre-box">
+              <h2 class="subtitle">Quais são os Serviços?</h2>
+              <ul class="sobre-lista">
+                <li>- Desenvolvimento de sites</li>
+                <li>- Lojas virtuais (E-commerce)</li>
+                <li>- Desenvolvimento de aplicativos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid-8 sobre-back">
+            <!-- Background -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SOBRE -->
+    <section class="container techs" id="techs"></section>
+    <!-- TECHS -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <h1 class="title">Contato</h1>
+        <form action="enviar.php" class="form">
+          <label for="nome">Nome</label>
+          <input type="text" required />
+          <label for="email">E-mail</label>
+          <input type="email" required />
+          <label for="telefone">Telefone</label>
+          <input type="tel" required />
+          <label for="msg">Mensagem</label>
+          <textarea rows="10" required></textarea>
+          <input type="submit" class="btn" value="Enviar" />
+        </form>
+      </div>
+    </section>
+    <!-- Contato -->
+    <footer>
+      <div class="container">
+        <p class="grid-16">Web Developer - Marcos Nascimento</p>
+      </div>
+    </footer>
+    <script src="js/write.js"></script>
+  </body>
+</html>
